@@ -1,5 +1,5 @@
 class Book < ApplicationRecord
-  
-  validates :title, presence :ture
-  validates :body, presence :ture
+
+  validates :title, presence: true
+  validates :body, presence: true
 end
