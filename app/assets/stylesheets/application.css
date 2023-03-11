@@ -19,10 +19,15 @@
   box-sizing: border-box;
 }
 
-.top{
-  width: 90%;
-  margin: 30px;
+.top-title,.top-body span,.index-title,table tr th,.new-title,.show-title,.show-body,.edit-title{
+  font-family: Verdana,sans-serif;
 }
+
+body{
+  margin: 30px;
+  font-family: sans-serif;
+}
+
 
 .top-title{
   font-size: 13px;
@@ -34,11 +39,93 @@
   padding-left: 30px;
 }
 
-.index{
-  margin: 30px;
-
+table{
+  font-size: 13px;
+  padding: 5px;
 }
 
-.new{
-  margin: 30px;
+table th{
+  text-align: center;
+}
+
+table td{
+  padding: 5px;
+}
+
+.error_explanation{
+  width: 450px;
+  height: 140px;
+  border: 2px solid red;
+  padding: 7px 7px 0;
+  margin: 10px 0;
+  background-color: #f0f0f0;
+}
+
+.error_explanation h5{
+    text-align: left;
+    font-weight: bold;
+    padding: 5px 5px 5px 15px;
+    font-size: 12px;
+    margin: -7px -7px 0;
+    background-color: #c00;
+    color: #fff;
+  }
+
+.error_explanation ul{
+  margin: 30px 130px 30px 60px;
+  font-size: 13px;
+  list-style-type: square;
+}
+
+.flash-message{
+  color: green;
+  font-size: 14px;
+  padding: 0 0 30px 30px;
+}
+
+.index-title{
+  padding-bottom: 10px;
+}
+
+.new,.edit{
+  padding-top: 10px;
+}
+
+.new p{
+  font-size: 13px;
+}
+
+.submit{
+  width: 90px;
+  height: 20px;
+}
+
+.show{
+  font-size: 13px;
+  line-height: 45px;
+}
+
+.top-body span,.show-title,.show-body{
+  font-weight: bold;
+}
+
+.show p{
+  padding-left: 30px;
+}
+
+.edit-title{
+  padding:5px 0;
+}
+
+.edit{
+  font-size: 13px;
+}
+
+.link{
+  color: #000000;
+}
+
+.link:hover{
+  color: #ffffff;
+  background-color: #000000;
 }
