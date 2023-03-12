@@ -54,7 +54,7 @@ table td{
 
 .error_explanation{
   width: 450px;
-  height: 140px;
+  height: 130px;
   border: 2px solid red;
   padding: 7px 7px 0;
   margin: 10px 0;
@@ -72,8 +72,8 @@ table td{
   }
 
 .error_explanation ul{
-  margin: 30px 130px 30px 60px;
-  font-size: 13px;
+  margin: 30px 130px 20px 60px;
+  font-size: 12px;
   list-style-type: square;
 }
 
@@ -84,6 +84,7 @@ table td{
 }
 
 .index-title{
+  font-size: 17px;
   padding-bottom: 10px;
 }
 
@@ -122,6 +123,8 @@ table td{
 }
 
 .link{
+  font-size: 14px; 
+  font-family: "arial unicode ms";
   color: #000000;
 }
 
