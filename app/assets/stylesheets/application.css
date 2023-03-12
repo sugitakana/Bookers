@@ -19,7 +19,7 @@
   box-sizing: border-box;
 }
 
-.top-title,.top-body span,.index-title,table tr th,.new-title,.show-title,.show-body,.edit-title{
+.top-title,.top-body span,.index-title,table tr th,.error_explanation h5,.new-title,.show-title,.show-body,.edit-title{
   font-family: Verdana,sans-serif;
 }
 
@@ -77,7 +77,7 @@ table td{
   list-style-type: square;
 }
 
-.flash-message{
+#notice{
   color: green;
   font-size: 14px;
   padding: 0 0 30px 30px;
